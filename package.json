@@ -1,0 +1,15 @@
+{
+  "name": "wonderwall",
+  "version": "1.0.0",
+  "description": "Creates a canvas (our wonderwall) where uPort permissioned timebound data is displayed on the initiative of the user who scanned the QRCode with his or her handheld device.",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -w ./views -w ./scripts Server.js"
+  },
+  "author": "Toon Leijtens",
+  "license": "MIT",
+  "dependencies" : {
+  	"express" : "latest"
+  }
+}
