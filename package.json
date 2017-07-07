@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon -w ./views -w ./scripts Server.js"
   },
+  "repository": {
+  	"type": "git",
+  	"url": "git@github.com:smart-t/wonderwall.git"
+  },
   "author": "Toon Leijtens",
   "license": "MIT",
   "dependencies" : {
